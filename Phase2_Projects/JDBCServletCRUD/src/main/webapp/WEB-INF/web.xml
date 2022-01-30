@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>JDBCServletCRUD</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ServletRetrieve</display-name>
+    <servlet-name>ServletRetrieve</servlet-name>
+    <servlet-class>com.servlets.ServletRetrieve</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletRetrieve</servlet-name>
+    <url-pattern>/ServletRetrieve</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletSave</display-name>
+    <servlet-name>ServletSave</servlet-name>
+    <servlet-class>com.servlets.ServletSave</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletSave</servlet-name>
+    <url-pattern>/ServletSave</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletEdit</display-name>
+    <servlet-name>ServletEdit</servlet-name>
+    <servlet-class>com.servlets.ServletEdit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletEdit</servlet-name>
+    <url-pattern>/ServletEdit</url-pattern>
+  </servlet-mapping>
+</web-app>
